@@ -81,6 +81,7 @@ hr {
   background-color: white;
 }
 .links:hover, .links:focus { color: #CCCCCC }
+.links {text-decoration: underline;}
 .center {
   text-align: center;
 }
