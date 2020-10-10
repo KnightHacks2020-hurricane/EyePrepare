@@ -1,3 +1,77 @@
+a {
+  color: white;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  background-color: #023f4a;
+}
+
+@media screen and (min-width: 768px) {
+  nav {
+    border-bottom: solid 1px white;
+    height: 80px;
+  }
+}
+
+.navbar-toggler {
+  border: 0;
+  margin: 1px;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:hover {
+    border: 1px solid white;
+    margin: 0;
+    outline: none;
+    box-shadow: none;
+}
+
+.collapsed:active {
+  border: 0;
+}
+
+.active {
+  text-decoration: underline;
+  color: #CCCCCC;
+}
+
 .nav-item {
-  padding: 0 5%;
+  padding: 0 20px;
+}
+
+.navbar-brand {
+  padding-left: 20px;
+  padding-right: 80px;
+  margin-right: 0;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+.navbar-brand:hover, .navbar-brand:focus {
+  color: #CCCCCC;
+}
+
+.brand-active:hover, .brand-active:focus {
+  color: white;
+}
+
+.hamburger-menu {
+  fill: white;
+}
+
+.navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus {
+  color: #CCCCCC;
+}
+
+.active:hover , .active:focus {
+  text-decoration: underline;
+}
+
+.navbar {
+  background-color: #023f4a;
+  padding-left: 80px;
+  padding-right: 80px;
+  color: white;
 }
