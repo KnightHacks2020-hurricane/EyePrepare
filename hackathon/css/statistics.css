@@ -65,6 +65,9 @@
 img {
   width: 100%;
   display: block;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
 }
 /*grid item format*/
 .grid-item {
