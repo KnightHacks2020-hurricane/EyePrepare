@@ -70,3 +70,14 @@ img {
 .grid-item {
   padding: 20px;
 }
+li {
+  padding: 5px
+}
+hr {
+  border: solid 1px none;
+  background-color: white;
+}
+.links:hover, .links:focus { color: #CCCCCC }
+.center {
+  text-align: center;
+}
