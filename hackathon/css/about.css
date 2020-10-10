@@ -30,10 +30,6 @@
     grid-column: 1 / span 1;
     grid-row: 6;
   }
-  .item7 {
-    grid-column: 1 / span 1;
-    grid-row: 7
-  }
 }
 /* Medium screens */
 @media only screen and (min-width: 768px) {
@@ -66,10 +62,6 @@
   .item6 {
     grid-column: 4 / span 1;
     grid-row: 3;
-  }
-  .item7 {
-    grid-column: 1 / span 3;
-    grid-row: 4
   }
 }
 /*large screen*/
@@ -104,10 +96,6 @@
     grid-column: 4 / span 1;
     grid-row: 2;
   }
-  .item7 {
-    grid-column: 1 / span 3;
-    grid-row: 3
-  }
 }
 
 /*making the image behave*/
@@ -126,6 +114,7 @@ img {
   height: 300px;
   border: 1px solid ;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  box-shadow: 10px 10px 5px #01687b;
 }
 
 /* This container is needed to position the front and back side */
@@ -155,7 +144,7 @@ img {
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
   background-color: #f2f7fb;
-  color: black;
+  color: #023f4a;
 }
 
 /* Style the back side */
@@ -172,9 +161,4 @@ h4 {
   border: ;
   padding: 20px;
   font-family: Montserrat;
-
-}
-
-p {
-  text-align: center;
 }
