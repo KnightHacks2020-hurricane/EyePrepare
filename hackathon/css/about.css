@@ -1,3 +1,170 @@
+.card {
+  background-color: #d1cbc6;
+  border: 2px solid black;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.card-img-top {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.form-row {
+  padding-top: 20px;
+  margin: auto;
+}
+
+.top-home {
+  background-color: #d1cbc6;
+  background-image: linear-gradient(#d1cbc6, #023f4a);
+  padding: 50px 20px;
+}
+
+.top-home .row {
+  text-align: left;
+}
+
+.meet-team {
+  font-size: 3em;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .logo-home {
+    max-width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .logo-container {
+    padding-bottom: 50px;
+  }
+
+  .col-md-6 {
+    padding-right: 0;
+  }
+
+  .contact-section {
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .logo-home {
+    max-width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.home-heading {
+  font-size: 4em;
+  color: black;
+}
+
+.form-group {
+  padding: 10px;
+}
+
+.container {
+  width: 100%;
+  padding: 100px 15px 100px;
+}
+
+.img-container {
+  position: relative;
+  text-align: center;
+}
+
+.contact-form {
+  margin: 20px;
+  padding: 20px;
+  background-color: #01687b;
+  border-radius: 20px;
+}
+
+.top-info {
+  padding: 100px 0 50px;
+}
+
+.bottom-info {
+  padding: 50px 0;
+}
+
+.bottom-info > h4 {
+  text-align: center;
+  padding: 0;
+}
+
+hr {
+  margin: auto;
+  border: 0;
+  height: 1px;
+  background-color: white;
+  width: 70%;
+}
+
+.contact-section {
+  padding-bottom: 10px;
+}
+
+.center-text {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 840px)
+{
+  .center-text {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.row {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  margin: 0;
+}
+
+h3, p {
+  margin-bottom: 0;
+}
+
+.form-row-btn {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.card-body {
+  padding: 0;
+  margin: 20px;
+  border: none;
+  border-radius: 20px;
+  color: black;
+}
+
+.card-body-back {
+  padding: 5%;
+  background-color: #023f4a;
+  margin: 20px;
+  border-radius: 20px;
+}
+
 /*small screen*/
 @media screen and (max-width: 600px) {
   .grid {
@@ -110,16 +277,16 @@ img {
 
 .flip-card {
   background-color: transparent;
-  width: 300px;
-  height: 300px;
-  border: 1px solid ;
+  /* width: 300px;
+  height: 300px; */
+  /* border: 1px solid ; */
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
-  box-shadow: 10px 10px 5px #01687b;
+  /* box-shadow: 10px 10px 5px #01687b; */
 }
 
 /* This container is needed to position the front and back side */
 .flip-card-inner {
-  position: relative;
+  /* position: relative; */
   width: 100%;
   height: 100%;
   text-align: center;
@@ -149,7 +316,7 @@ img {
 
 /* Style the back side */
 .flip-card-back {
-  background-color: #01687b;
+  /* background-color: #01687b; */
   color: #f2f7fb;
   transform: rotateY(180deg);
 }
@@ -158,7 +325,6 @@ h4 {
   width: 100%;
   height: 100%;
   text-align: left;
-  border: ;
   padding: 20px;
   font-family: Montserrat;
 }
